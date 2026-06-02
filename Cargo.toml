@@ -1,0 +1,13 @@
+[package]
+name = "algebraic-geometry"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SuperInstance/algebraic-geometry"
+description = "Algebraic geometry in Rust — varieties, ideals, Groebner bases, affine and projective spaces, polynomial rings"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+
+[dev-dependencies]
